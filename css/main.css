@@ -1,0 +1,42 @@
+/* Inserta tu CSS aqui */
+*{
+		box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #717171;
+	font-family: arial;
+}
+span{
+	font-size: 55px;
+}
+h3{
+	font-family: 'Slabo 27px', serif;
+}
+.contenedor{
+	text-align: center;
+	margin: 20px 100px;
+}
+.box{
+	width: 209px;
+	height: 350px;
+	float: left;
+	margin-right: 20px;
+	box-shadow: 2px 2px 2px #b9b9b9;
+	background-color: #fbfbfb;
+	padding: 35px 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+.sub-title{
+	font-style: italic;
+	color: #717171 !important;
+	font-size: 12px;
+}
+.box:hover{
+	transform: scale(1.08);
+	color: #dee5f1;
+	background-color: #fff;
+	border: none;
+}
